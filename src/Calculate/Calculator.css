@@ -1,0 +1,39 @@
+
+    .root {
+        -fx-background-color: #00FFFF;
+        -fx-background-image: url("Cat.jpg");
+
+        }
+
+    .button {
+        -fx-background-color: #c42f2f;
+        -fx-text-fill: #FFFFFF;
+        -fx-background-radius: 15;
+        -fx-padding: 3 6 6 6;
+        -fx-background-radius: 20;
+        -fx-effect: dropshadow( three-pass-box , cyan , 6 , 0.0 , 4 , 0 );
+
+        }
+
+    .button:hover {
+        -fx-background-color: linear-gradient(to right, #cb00ff, #3fd5ff);
+
+        }
+
+    .button:pressed {
+        -fx-background-color: linear-gradient(to right, #b23333, #0d839b);
+
+        }
+
+        .label {
+            //-fx-font-size: 32px;
+               -fx-font-family: "Arial";
+               -fx-fill: #FFFFFF;
+               -fx-effect: innershadow( three-pass-box , rgba(255, 255, 255) , 6, 0.0 , 0 , 2 );
+        }
+
+        #Answer {
+        //-fx-font-size: 13px;
+
+        }
+
